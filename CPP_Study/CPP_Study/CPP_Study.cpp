@@ -1,69 +1,61 @@
 ﻿#include <iostream>
-using std::cout;
-using std::endl;
+using namespace std;
 
-// 오늘의 주제 : 문자와 문자열
-// bool은 그냥 정수미나, 참/ 거짓을 나타내기 위해 사용한다 했었다
-// 사실 char도 마찬가지, 그냥 정수지만 '문자' 의미를 나타내기 위해 사용
+// 오늘의 주제 : 데이터 연산
+// 데이터를 가공하는 방법에 대해서 알아보기.
 
-// char : 알파벳 / 숫자 문자를 나타낸다
-// wchar_t : 유니코드 문자를 나타낸다.
+// a [ 1 ]
+// a라는 이름의 바구니를 할당하고 안에 1을 넣는다.
+int a = 1;
 
-// '문자'의 의미로 작은 따옴표 '' 사용
-char ch = 'a';
-char ch2 = '1';
-char ch3 = 'a' + 1;
-
-// 국제화 시대에는 영어만으로 서비스 할 수 없음
-// 전 세계 모든 문자에 대해 유일 코드를 부여한 것이 유니코드 (unicode)
-// 참고) 유니코드에서 가장 많은 번호를 차지하는게 한국어/중국어~ ex(뚥쿩웱)
-
-// 유니코드는 표기 방식이 여러가지가 있음. 대표적으로 UTF8 UTF16
-// UTF8
-// 
-// - 알파벳, 숫자 1바이트(ASCII 동일한 번호)
-// - 유럽 지역의 문자는 2바이트
-// - 한글, 한자 등 3바이트
-// 
-// UTF16
-// - 알파벳, 숫자, 한글, 한자 등 거의 대부분 문자 2바이트
-// - 매~~우 예외적인 고대 문자만 4바이트 (사실상 무시해도 됨)
-
-wchar_t wch = 0xc548; // L'안';
-
-// Escape Sequence
-// 표기하기 애매한 애들을 표현
-// tab => '    ' ? => 띄어쓰기를 몇번한건지 tabe인건지?
-// \t = 아스키코드9 = Tab
-// \n = 아스키코드10 = LineFeed(한줄 아래로)
-// \r = 아스키코드13 = CarriageReturn (커서 <<)
-// (') 따옴표를 표기하고싶다면? => \', \"
-
-// 문자열
-// 문자들이 열을 지어서 모여 있는것 (문자 배열)
-// 정수 (1 ~ 8바이트) 고정 길이
-// string = "Hello World" => const char str[12] = ['H','e','l','l','o',' ','W','o','r','l','d','\0'];
-
-char coma = '\'';
-char coma2 = '\"';
-
-const char str[] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '\0' };
-char str2[] = "Hello World";
+// b [ 2 ]
+// b라는 이름의 바구니를 할당하고 안에 2를 넣는다.
+int b = 2;
 
 int main()
 {
-	cout << ch << endl;
-	cout << ch2 << endl;
-	cout << ch3 << endl;
 
-	// cout은 char 전용
-	// wcout.imubue(std::locale("kor")) => 한글도 출력해줘
-	std::wcout.imbue(std::locale("kor"));
-	std::wcout << wch << endl;
+// visual Studio 편집기
+#pragma region 산술 연산
+	// 산술 연산자
+	// 대입연산
+	// 사칙연산
 
-	cout << coma << endl;
-	cout << coma2 << endl;
+	// a에 b를 대입하고 b를 반환하라
+	// -> b라는 바구니 안에 있는 값을, a라는 바구니 안에다 복사한다.
 
-	cout << str << endl;
-	cout << char(9) << endl;
+	// 대입연산
+	a = b + 3; // 덧셈 add
+	a = b - 3; // 뺄셈 sub
+	a = b * 3; // 곱셈 mul
+	a = b / 3; // 나눗셈 div
+	a = b % 3; // 나머지 div
+
+	a += 3; // a = a + 3;
+	a -= 3;
+	a *= 3;
+	a /= 3;
+	a %= 3;
+
+	// 증감 연산자
+	a = a + 1; // add eax, 1 -> inc eax
+	a++;
+	++a;
+	a--;
+	--a;
+
+	b = a++; // b = a => a를 1증가
+	b = ++a; // a를 1증가 => b = a;
+
+	b = a + 1 * 3; // 연산의 우선순위
+
+
+	// 사칙연산
+	// 언제 필요한가?
+	// ex) 데미지 계산
+	// ex) 체력을 깎는다거나
+	// ex) 루프문에서 카운터를 1 증가시킨다거나
+
+
+#pragma endregion
 }
