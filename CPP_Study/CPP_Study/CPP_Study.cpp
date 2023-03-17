@@ -23,5 +23,9 @@ bool isMale = false;
 int isFemale = 1; 
 int main()
 {
+
+	// 00007FF7E58318CB  movzx edx,byte ptr [isHighLevel (07FF7E583C000h)] 
+	// edx에 byte 크기의 ptr 기입. 
+	// 어셈블리에서는 boolean을 1byte로 취급한다.
 	cout << isHighLevel << endl;
 }
