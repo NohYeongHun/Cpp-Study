@@ -18,7 +18,6 @@ bool isMale = false;
 // 1이면 여자 0이면 남자.
 
 // bool < 1바이트 정수
-// - al
 
 int isFemale = 1; 
 int main()
