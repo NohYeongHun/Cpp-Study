@@ -75,7 +75,7 @@ int main()
 			}
 			allCnt++;
 		}
-		else if (input == ROCK)
+		else if (input == ENUM_ROCK)
 		{
 			switch (computer)
 			{
@@ -93,7 +93,7 @@ int main()
 			}
 			allCnt++;
 		}
-		else if (input == PAPER)
+		else if (input == ENUM_PAPER)
 		{
 			switch (computer)
 			{
