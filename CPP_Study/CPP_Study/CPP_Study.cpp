@@ -1,60 +1,54 @@
 ﻿#include <iostream>
 using namespace std;
 
-// 오늘의 주제 : 데이터 연산
-// 데이터를 가공하는 방법에 대해서 알아봅시다
+// 오늘의 주제 : 유의사항
 
-unsigned char flag; // 부호를 없애야 >> 를 하더라도 부호비트가 딸려오지 않음.
+// 1) 변수의 유효범위
 
+// 전역 변수 
+int hp = 10;
 
-// 전역변수
+// 스택
+// { } 중괄호의 범위가 변수의 생존 범위
+// 같은 이름을 두번 사용할 때 문제
 
-// [데이터 영역]
-// .data (초기값 있는 경우)
-int a = 2;
+// 2) 연산의 우선순위
 
-// .bss (초기값 없는 경우)
-int b;
+// 3) 타입 변환
 
-// .rodata (읽기 전용 데이터)
-const char* msg = "Hello World";
-
-// 한번 정해지면 절대 바뀌지 않을 값들
-// constant의 약자인 const를 붙임 (변수를 상수화 한다고 함)
-// const를 붙였으면 초기값을 반드시 지정해야 함.
-// 상수는 대부분 대문자로 작성하는 코딩 컨벤션이 있음.
-// const도 바뀌지 않는 읽기전용
-// .rodata?
-// C++ 표준에서 꼭 그렇게 하라는 말이 없음
-// 그냥 컴파일러 (VS) 마음
-const int AIR = 0;
-const int STUN = 1;
-const int POLYMORPH = 2;
-const int INVINCIBLE = 3;
+// 4) 사칙 연산 관련
 
 
 int main()
 {
-	// [스택 영역]
-	int c = 3;
-	int v = 4;
+	int hp = 20;
+	cout << hp << endl;
 
+	// 짝수 여부
+	bool isEven = (hp % 2 == 0);
 
-#pragma region 비트연산
-	// 실습
-	// 0b0000 [무적][변이][스턴][공중부양]
+	// 짝수거나 3으로 나뉘는 값인지
+	bool isEvenOrDivBy3 = (hp % 2 == 0 || hp % 3 == 0);
 
-	// 무적 상태로 만든다.
-	flag = (1 << INVINCIBLE);
+	// 바구니 교체 (형식 교체)
+	short hp2 = (short)hp; // 위쪽 비트 데이터를 짤린 상태로 저장
+	float hp3 = (float)hp; // 실수로 변환할 때 정밀도 차이가 있기 때문에 데이터 손실.
+	unsigned int hp4 = (unsigned int)hp; // 비트 단위로 보면 똑같은데, 분석하는 방법이 달라짐.
 
-	// 변이 상태를 추가한다 (무적 + 변이)
-	flag |= (1 << POLYMORPH);
+	// 곱셈
+	// - 오버 플로우
+	// 나눗셈
+	// - 0 나누기 조심
+	// - 실수 관련
+	// - 실수관련
 
-	// 무적인지 확인하고 싶다? (다른 상태는 관심 없음)
-	bool invincible = ((flag & (1 << INVINCIBLE)) != 0);
+	int maxHp = 1000;
+	float ratio = hp / (float)maxHp; // 0.1999996
+	cout << ratio << endl;
 
-	// 무적이거나 스턴상태인지 확인하고 싶다면?
-	bool stunOrInvincible = ((flag & 0b1010) != 0);
+}
 
-#pragma endregion
+void Test()
+{
+	
 }
