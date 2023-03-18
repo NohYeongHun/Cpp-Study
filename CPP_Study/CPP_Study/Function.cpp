@@ -45,16 +45,19 @@ int MultiplyBy2(int number)
 
 int MultiplyBy(int a, int b)
 {
-	return a * b;
+	int c = a * b;
+	return c;
 }
 
+// Visual Studio 디버그
+// F5 (브레이크 포인트 까지 실행)
+// F10 (함수 단위로 실행)
+// F11 (한 줄 씩 실행)
 int main()
 {
-	PrintHelloWorld();
-	PrintNumber(2);
-	int result = MultiplyBy2(4);
-	PrintNumber(result);
-	result = MultiplyBy(3, 5);
+	int a = 3;
+	int b = 5;
+	int result = MultiplyBy(a, b);
 	PrintNumber(result);
 	
 }
