@@ -99,5 +99,8 @@
     <ClCompile Include="InitalizeList.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="OperatorOverloading.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
