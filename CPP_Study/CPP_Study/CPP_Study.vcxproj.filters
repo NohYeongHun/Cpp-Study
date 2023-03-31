@@ -108,5 +108,8 @@
     <ClCompile Include="dynamicAllocation.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="TypeCasting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
