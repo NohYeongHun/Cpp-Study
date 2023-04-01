@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\Game">
       <UniqueIdentifier>{f8e37cdf-af47-4da3-9f34-0c916e04143e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ForwardDeclaration">
+      <UniqueIdentifier>{5867e0a5-14a2-4faa-902a-987bcac6f3f3}</UniqueIdentifier>
+    </Filter>
     <Filter Include="소스 파일\Creature">
       <UniqueIdentifier>{aac7dcd6-7faa-4530-a37e-ba4079c8bbe7}</UniqueIdentifier>
     </Filter>
@@ -147,6 +150,15 @@
     <ClCompile Include="Monster.cpp">
       <Filter>소스 파일\Creature</Filter>
     </ClCompile>
+    <ClCompile Include="M.cpp">
+      <Filter>소스 파일\ForwardDeclaration</Filter>
+    </ClCompile>
+    <ClCompile Include="P.cpp">
+      <Filter>소스 파일\ForwardDeclaration</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardDeclaration.cpp">
+      <Filter>소스 파일\ForwardDeclaration</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -163,6 +175,12 @@
     </ClInclude>
     <ClInclude Include="Monster.h">
       <Filter>소스 파일\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="M.h">
+      <Filter>소스 파일\ForwardDeclaration</Filter>
+    </ClInclude>
+    <ClInclude Include="P.h">
+      <Filter>소스 파일\ForwardDeclaration</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
