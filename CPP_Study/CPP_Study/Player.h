@@ -25,12 +25,15 @@ public:
 
 	}
 
+	virtual void PrintInfo();
+
 public:
 	int _playerType;
 };
 
 class Knight : public Player
 {
+public:
 	Knight() : Player(PT_Knight)
 	{
 		_hp = 150;
@@ -41,6 +44,7 @@ class Knight : public Player
 
 class Archer : public Player
 {
+public:
 	Archer() : Player(PT_Archer)
 	{
 		_hp = 80;
@@ -51,10 +55,11 @@ class Archer : public Player
 
 class Mage : public Player
 {
+public:
 	Mage() : Player(PT_Mage)
 	{
-		_hp = 80;
-		_attack = 15;
+		_hp = 50;
+		_attack = 25;
 		_defence = 5;
 	}
 };
