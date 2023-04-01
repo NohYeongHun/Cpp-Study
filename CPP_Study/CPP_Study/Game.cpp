@@ -1,0 +1,12 @@
+#include "Game.h"
+
+// ø¿¥√¿« ¡÷¡¶ : TextRPG #4
+Game::Game() : _player(nullptr)
+{
+
+}
+
+Game::~Game()
+{
+
+}
