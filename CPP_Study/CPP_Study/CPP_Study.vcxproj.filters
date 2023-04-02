@@ -13,37 +13,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Game">
+    <Filter Include="소스 파일\Debugging">
+      <UniqueIdentifier>{73926768-449e-4906-b8fb-fd5be025c563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DataType">
+      <UniqueIdentifier>{0c8141ce-83f5-4c50-b242-fd77630f1d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pointer">
+      <UniqueIdentifier>{81460f2e-8b80-4664-a566-acfaacace888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Array">
+      <UniqueIdentifier>{a23b3735-1af9-423f-97f7-816771f62f43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\virtual">
+      <UniqueIdentifier>{72fab7ad-0791-4c5d-b94f-2b6bb797c958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\dynamicAllocation">
+      <UniqueIdentifier>{760b6d7f-cbc6-4166-8315-930f479ae221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Training">
+      <UniqueIdentifier>{8316bdb6-71d3-4a60-a833-086ebf600883}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\OOP">
+      <UniqueIdentifier>{fee5169d-2dcc-46fd-84c4-78fcec12e924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Function">
+      <UniqueIdentifier>{47a933a8-6fd4-4629-9c4b-16ddf794b89d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Casting">
+      <UniqueIdentifier>{4c0593db-9672-4fb6-8499-fb1603d3ec19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ETC">
+      <UniqueIdentifier>{23eb1115-1be8-4795-bf0d-b9ed038e1b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Training\Game">
       <UniqueIdentifier>{f8e37cdf-af47-4da3-9f34-0c916e04143e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Training\Creature">
+      <UniqueIdentifier>{aac7dcd6-7faa-4530-a37e-ba4079c8bbe7}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\ForwardDeclaration">
       <UniqueIdentifier>{5867e0a5-14a2-4faa-902a-987bcac6f3f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Creature">
-      <UniqueIdentifier>{aac7dcd6-7faa-4530-a37e-ba4079c8bbe7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Debugging">
-      <UniqueIdentifier>{73926768-449e-4906-b8fb-fd5be025c563}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Previous">
-      <UniqueIdentifier>{a012b64c-65cd-4cac-ba66-a6f0372019dc}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
-      <Filter>소스 파일\Game</Filter>
+      <Filter>소스 파일\Training\Game</Filter>
     </ClCompile>
     <ClCompile Include="Player.cpp">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일\Training\Creature</Filter>
     </ClCompile>
     <ClCompile Include="Creature.cpp">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일\Training\Creature</Filter>
     </ClCompile>
     <ClCompile Include="Field.cpp">
-      <Filter>소스 파일\Game</Filter>
+      <Filter>소스 파일\Training\Game</Filter>
     </ClCompile>
     <ClCompile Include="Monster.cpp">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일\Training\Creature</Filter>
     </ClCompile>
     <ClCompile Include="M.cpp">
       <Filter>소스 파일\ForwardDeclaration</Filter>
@@ -57,133 +84,130 @@
     <ClCompile Include="DebugStudy.cpp">
       <Filter>소스 파일\Debugging</Filter>
     </ClCompile>
-    <ClCompile Include="Array.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="BasicPointer.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="CallStack.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="CastingType.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="ConstructorDestructor.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="dynamicAllocation.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="encapsulation.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="EndPointer.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="EnumType.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="ExamString.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="FileDivisionManagement.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="Function.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="FunctionFinish.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="Inheritance.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="InitalizeList.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="LocalVariable.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="LottoExam.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="MultipleArray.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="MultiplePointer.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="OOPFinish.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="OOPStart.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="OperatorOverloading.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerArray.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerCalc.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerTraining.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="Reference.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="RockPaperScissors.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="ShallowDeepCopy.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="SnailExam.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="Star&amp;MulExam.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="TextRPG.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="TextRPG2.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="TypeCasting.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="TypeCastingPointer.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="UpgradeTextRPG.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
-    <ClCompile Include="vTableExam.cpp">
-      <Filter>소스 파일\Previous</Filter>
-    </ClCompile>
     <ClCompile Include="CPP_Study.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumType.cpp">
+      <Filter>소스 파일\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamString.cpp">
+      <Filter>소스 파일\DataType</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicPointer.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPointer.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>소스 파일\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleArray.cpp">
+      <Filter>소스 파일\Array</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplePointer.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerTraining.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerCalc.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerArray.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="vTableExam.cpp">
+      <Filter>소스 파일\virtual</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicAllocation.cpp">
+      <Filter>소스 파일\dynamicAllocation</Filter>
+    </ClCompile>
+    <ClCompile Include="RockPaperScissors.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRPG.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeTextRPG.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCastingPointer.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRPG2.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPFinish.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPStart.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructorDestructor.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="InitalizeList.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="encapsulation.cpp">
+      <Filter>소스 파일\OOP</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStack.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionFinish.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalVariable.cpp">
+      <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="SnailExam.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="Star&amp;MulExam.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCasting.cpp">
+      <Filter>소스 파일\Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="ShallowDeepCopy.cpp">
+      <Filter>소스 파일\ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="LottoExam.cpp">
+      <Filter>소스 파일\Training</Filter>
+    </ClCompile>
+    <ClCompile Include="CastingType.cpp">
+      <Filter>소스 파일\Casting</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverloading.cpp">
+      <Filter>소스 파일\OOP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
-      <Filter>소스 파일\Game</Filter>
+      <Filter>소스 파일\Training\Game</Filter>
     </ClInclude>
     <ClInclude Include="Player.h">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일\Training\Creature</Filter>
     </ClInclude>
     <ClInclude Include="Creature.h">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일\Training\Creature</Filter>
     </ClInclude>
     <ClInclude Include="Field.h">
-      <Filter>소스 파일\Game</Filter>
+      <Filter>소스 파일\Training\Game</Filter>
     </ClInclude>
     <ClInclude Include="Monster.h">
-      <Filter>소스 파일\Creature</Filter>
+      <Filter>소스 파일\Training\Creature</Filter>
     </ClInclude>
     <ClInclude Include="M.h">
       <Filter>소스 파일\ForwardDeclaration</Filter>
