@@ -22,116 +22,14 @@
     <Filter Include="소스 파일\Creature">
       <UniqueIdentifier>{aac7dcd6-7faa-4530-a37e-ba4079c8bbe7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Debugging">
+      <UniqueIdentifier>{73926768-449e-4906-b8fb-fd5be025c563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Previous">
+      <UniqueIdentifier>{a012b64c-65cd-4cac-ba66-a6f0372019dc}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPP_Study.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Star&amp;MulExam.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="RockPaperScissors.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="EnumType.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Function.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LocalVariable.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CallStack.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FunctionFinish.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TextRPG.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="BasicPointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerCalc.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerTraining.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Reference.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Array.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="PointerArray.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="LottoExam.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MultiplePointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="MultipleArray.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="EndPointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TextRPG2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ExamString.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SnailExam.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="FileDivisionManagement.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="OOPStart.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ConstructorDestructor.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Inheritance.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="encapsulation.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="InitalizeList.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="OperatorOverloading.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="OOPFinish.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="dynamicAllocation.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TypeCasting.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="TypeCastingPointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="vTableExam.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ShallowDeepCopy.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CastingType.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Game.cpp">
       <Filter>소스 파일\Game</Filter>
     </ClCompile>
@@ -140,9 +38,6 @@
     </ClCompile>
     <ClCompile Include="Creature.cpp">
       <Filter>소스 파일\Creature</Filter>
-    </ClCompile>
-    <ClCompile Include="UpgradeTextRPG.cpp">
-      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Field.cpp">
       <Filter>소스 파일\Game</Filter>
@@ -158,6 +53,120 @@
     </ClCompile>
     <ClCompile Include="ForwardDeclaration.cpp">
       <Filter>소스 파일\ForwardDeclaration</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugStudy.cpp">
+      <Filter>소스 파일\Debugging</Filter>
+    </ClCompile>
+    <ClCompile Include="Array.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicPointer.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="CallStack.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="CastingType.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructorDestructor.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="dynamicAllocation.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="encapsulation.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="EndPointer.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumType.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="ExamString.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDivisionManagement.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="Function.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionFinish.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="Inheritance.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="InitalizeList.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalVariable.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="LottoExam.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleArray.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiplePointer.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPFinish.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="OOPStart.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverloading.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerArray.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerCalc.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerTraining.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="RockPaperScissors.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="ShallowDeepCopy.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="SnailExam.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="Star&amp;MulExam.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRPG.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRPG2.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCasting.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeCastingPointer.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="UpgradeTextRPG.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="vTableExam.cpp">
+      <Filter>소스 파일\Previous</Filter>
+    </ClCompile>
+    <ClCompile Include="CPP_Study.cpp">
+      <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
