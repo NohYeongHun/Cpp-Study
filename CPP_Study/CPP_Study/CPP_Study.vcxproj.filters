@@ -192,6 +192,12 @@
     <ClCompile Include="OperatorOverloading.cpp">
       <Filter>소스 파일\OOP</Filter>
     </ClCompile>
+    <ClCompile Include="FunctionPointer.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionPointer2.cpp">
+      <Filter>소스 파일\Pointer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
