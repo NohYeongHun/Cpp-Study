@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\ForwardDeclaration">
       <UniqueIdentifier>{5867e0a5-14a2-4faa-902a-987bcac6f3f3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Template">
+      <UniqueIdentifier>{42d3913f-586f-466a-af5d-fdd1514842f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -200,6 +203,9 @@
     </ClCompile>
     <ClCompile Include="Functor.cpp">
       <Filter>소스 파일\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateBasic.cpp">
+      <Filter>소스 파일\Template</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
