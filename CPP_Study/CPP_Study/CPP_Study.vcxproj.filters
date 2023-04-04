@@ -58,6 +58,12 @@
     <Filter Include="소스 파일\Template">
       <UniqueIdentifier>{42d3913f-586f-466a-af5d-fdd1514842f5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\CallBack">
+      <UniqueIdentifier>{1c8f469e-3c68-4545-af81-9a2a92de65b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\CurrentStudy">
+      <UniqueIdentifier>{648aa41e-53f5-4a56-95e3-30c318d559ff}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -204,8 +210,14 @@
     <ClCompile Include="Functor.cpp">
       <Filter>소스 파일\Function</Filter>
     </ClCompile>
-    <ClCompile Include="TemplateBasic.cpp">
+    <ClCompile Include="TemplateFunction.cpp">
       <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateClass.cpp">
+      <Filter>소스 파일\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="CallBack.cpp">
+      <Filter>소스 파일\CurrentStudy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
