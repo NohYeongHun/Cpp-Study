@@ -64,6 +64,12 @@
     <Filter Include="소스 파일\CurrentStudy">
       <UniqueIdentifier>{648aa41e-53f5-4a56-95e3-30c318d559ff}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL">
+      <UniqueIdentifier>{efb837c8-d698-49ad-aad7-d097965d17ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\STL\Vector">
+      <UniqueIdentifier>{42414fa6-a7aa-4cbd-ab03-6ef8eeba2a69}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -217,7 +223,10 @@
       <Filter>소스 파일\Template</Filter>
     </ClCompile>
     <ClCompile Include="CallBack.cpp">
-      <Filter>소스 파일\CurrentStudy</Filter>
+      <Filter>소스 파일\CallBack</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>소스 파일\STL\Vector</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
