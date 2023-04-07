@@ -70,6 +70,9 @@
     <Filter Include="소스 파일\STL\Vector">
       <UniqueIdentifier>{42414fa6-a7aa-4cbd-ab03-6ef8eeba2a69}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\STL\List">
+      <UniqueIdentifier>{b6380bc1-81fb-4e99-a20d-e603d7228fdb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -230,6 +233,9 @@
     </ClCompile>
     <ClCompile Include="VectorImpl.cpp">
       <Filter>소스 파일\STL\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="list.cpp">
+      <Filter>소스 파일\STL\List</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
