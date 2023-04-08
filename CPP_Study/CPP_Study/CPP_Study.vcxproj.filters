@@ -249,6 +249,9 @@
     <ClCompile Include="map.cpp">
       <Filter>소스 파일\STL\Map</Filter>
     </ClCompile>
+    <ClCompile Include="set.cpp">
+      <Filter>소스 파일\STL\Map</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
