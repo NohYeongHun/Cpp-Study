@@ -68,10 +68,13 @@ private:
 };
 
 
-class Test : public Knight
-{
-	virtual void Attack() override;
-};
+//class Test : public Knight
+//{
+//	virtual void Attack() override
+//};
+
+
+
 
 int main()
 {
