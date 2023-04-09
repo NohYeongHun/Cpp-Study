@@ -270,6 +270,9 @@
     <ClCompile Include="auto.cpp">
       <Filter>소스 파일\ModernC++</Filter>
     </ClCompile>
+    <ClCompile Include="bracketInit.cpp">
+      <Filter>소스 파일\ModernC++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
