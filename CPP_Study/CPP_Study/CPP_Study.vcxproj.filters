@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\STL\Map">
       <UniqueIdentifier>{1a1b695c-377e-4429-9e09-3554e1262dd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ModernC++">
+      <UniqueIdentifier>{d62b7bec-168d-4138-b7a7-4a69a421d89c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp">
@@ -263,6 +266,9 @@
     </ClCompile>
     <ClCompile Include="algorithm.cpp">
       <Filter>소스 파일\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="auto.cpp">
+      <Filter>소스 파일\ModernC++</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
