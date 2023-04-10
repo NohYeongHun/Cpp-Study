@@ -294,6 +294,9 @@
     <ClCompile Include="ForwardingReference.cpp">
       <Filter>소스 파일\ModernC++</Filter>
     </ClCompile>
+    <ClCompile Include="lambda.cpp">
+      <Filter>소스 파일\ModernC++</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
